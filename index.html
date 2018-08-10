@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Secelt Your Gender and Your Favorite Fruit!</h1>
+      <div>
+        <form id="celeb">
+          <select class="form-control" id="gender">
+            <option value="nogen">Choose you gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <select class="form-control" id="fruit">
+            <option value="nofruit">Choose your favorite fruit</option>
+            <option value="banana">Banana</option>
+            <option value="apple">Apple</option>
+            <option value="orange">Orange</option>
+            <option value="mango">Mango</option>
+          </select>
+
+          <div>
+            <button type="submit" class="btn">Find out my celebrity date!</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="resultform">
+        <h3>Result is here!</h3>
+        <p>
+        Your celebrity date is <span id="result"></span>!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
